@@ -34,7 +34,7 @@ export default function CardDetailPage(){
                     </Select>
                 </FormControl>
 
-                <DateReserve/>
+                <DateReserve onDateChange={() => {}} />
 
                 <Link href={'/booking'}>
                     <Button variant="contained" name="Book Venue">
