@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ProductCard from "./Card";
+import { VenueJson, VenueItem } from "../../interfaces";
 
 export default function VenueCatalog({venuesJson}:{venuesJson:VenueJson}){
     return (
